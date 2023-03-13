@@ -1,0 +1,41 @@
+@media screen and (max-width:1120px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width:904px) {
+    .container {
+        padding: 20px;
+    }
+    .navbar_humburger{
+        position: absolute;
+        right: 2%;
+        display: block;
+        cursor: pointer;
+    }
+    .close {
+        scale: 1;
+        color: var(--lightGrey);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .navbar_menu, 
+    .btns, .right,
+    .sub_container::before {
+        display: none;
+    }
+    .sub_container {
+        /* width: 100%; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        /* background: red; */
+        margin: auto;
+        /* opacity: .7; */
+    }
+    .hero_row .hero_title {
+        font-size: 50px;
+    }
+
+}
